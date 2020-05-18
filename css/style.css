@@ -1,0 +1,36 @@
+/*
+COLORS:
+
+Dark: #c0392b
+Medium: #e74c3c
+Light: #e67e22
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(232, 28, 35, 0.8), 
+        rgba(247,147,30, 0.8)), 
+        url(../img/hero.jpg);
+    background-size: cover;
+    background-position: bottom;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
