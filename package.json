@@ -1,0 +1,22 @@
+{
+  "name": "world-mma",
+  "version": "1.0.0",
+  "description": "Dummy website to showcase CSS.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass -w sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcanogo/world-mma.git"
+  },
+  "author": "Pablo Cano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcanogo/world-mma/issues"
+  },
+  "homepage": "https://github.com/pcanogo/world-mma#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
