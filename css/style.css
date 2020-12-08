@@ -84,7 +84,7 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-image: linear-gradient(to right, #f7931ecc, #e81c23cc);
+  background-image: linear-gradient(to right, #f7931e, #e81c23cc);
   display: inline-block;
   -webkit-background-clip: text;
   color: transparent;
@@ -167,8 +167,8 @@ body {
   transition: all .2s; }
 
 .btn-text:hover {
-  background-color: #f7931ecc;
-  border-color: #f7931ecc;
+  background-color: #f7931e;
+  border-color: #f7931e;
   color: #fff;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
   transform: translateY(-2px); }
@@ -221,7 +221,7 @@ body {
     font-size: 6rem;
     margin-bottom: .5rem;
     display: inline-block;
-    background-image: linear-gradient(to right, #f7931ecc, #e81c23cc);
+    background-image: linear-gradient(to right, #f7931e, #e81c23cc);
     -webkit-background-clip: text;
     color: transparent; }
   .feature-box:hover {
@@ -481,7 +481,7 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#e81c23cc, #cf1a20);
+  background-image: radial-gradient(#e81c23, #f7931e);
   z-index: 1000;
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
 
@@ -678,7 +678,7 @@ body {
 
 .section-book {
   padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #e81c23cc, #cf1a20); }
+  background-image: linear-gradient(to right bottom, #e81c23, #cf1a20); }
 
 .book {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
